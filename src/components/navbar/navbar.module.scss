@@ -1,0 +1,49 @@
+$clr-primary: #2680c0;
+$clr-primary-light: hsl(205, 84%, 74%);
+$clr-white: #fff;
+
+nav {
+  background: $clr-primary;
+  padding: 20px 32px;
+  h3 {
+    margin-bottom: 0;
+    color: $clr-white;
+  }
+  svg {
+    width: 32px;
+    fill: $clr-white;
+  }
+}
+
+.navCenter {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navContainer {
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
+
+.amountContainer {
+  position: absolute;
+  top: -12px;
+  right: 12px;
+  border-radius: 50%;
+  background: $clr-primary-light;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.totalAmount {
+  color: $clr-white;
+  margin-bottom: 0;
+  font-size: 20px;
+}
